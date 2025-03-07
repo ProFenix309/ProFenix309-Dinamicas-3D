@@ -1,9 +1,54 @@
 fileFormatVersion: 2
-guid: 1e06749e460fd334981e236e95f88193
+guid: 9e4222a46772acc4db672d1584591b86
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Akai_MAT
+    second: {fileID: 2100000, guid: 5fc2fe64306ba7a48a1c3da578b8b642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_MAT
+    second: {fileID: 2100000, guid: 417e82f2d2222a64eb979173349d0268, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeSpec_MAT
+    second: {fileID: 2100000, guid: 41c2f094aebd07f499aa153eaf0fcf1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyelash_MAT
+    second: {fileID: 2100000, guid: 71c938686cbcb5d4eb2780567465b5b8, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Erika_Archer_Clothes_diffuse
+    second: {fileID: 2800000, guid: 736cbc8796e5bff44bf7237b83c2b72f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Erika_Archer_Clothes_normal
+    second: {fileID: 2800000, guid: 35a3d73eb6691cd498fd1ea6fc3dfabc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FemaleFitA_Body_diffuse
+    second: {fileID: 2800000, guid: c993b17fc0d3a5a43a347cddbeda5584, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FemaleFitA_StdNM
+    second: {fileID: 2800000, guid: 8481620ec4f01374c85f58cfe5c8801c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: FemaleFitA_eyelash_diffuse
+    second: {fileID: 2800000, guid: bcfc7ef0a93a9a144b1256dac8206fe5, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
