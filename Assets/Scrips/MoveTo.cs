@@ -8,6 +8,8 @@ public class MoveTo : MonoBehaviour
     private NavMeshAgent agent;
     public Transform targetAgent;
 
+    [SerializeField] Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,5 +20,18 @@ public class MoveTo : MonoBehaviour
     void Update()
     {
         agent.SetDestination(targetAgent.position);
+
+        float velocidad = agent.velocity.magnitude;
+
+
+        if (velocidad != 0)
+        {
+            animator.SetBool("IsWalking", true);
+        }
+
+        else
+        {
+            animator.SetBool("IsWalking", false);
+        }
     }
 }
