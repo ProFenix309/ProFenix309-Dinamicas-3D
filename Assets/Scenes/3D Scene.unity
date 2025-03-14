@@ -2649,16 +2649,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 7489561230860956739, guid: 96dabeae1b54ae541bdc8fe03c3349ed,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.645
-      objectReference: {fileID: 0}
-    - target: {fileID: 7489561230860956739, guid: 96dabeae1b54ae541bdc8fe03c3349ed,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.008
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
