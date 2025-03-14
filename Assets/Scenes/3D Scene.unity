@@ -1218,10 +1218,15 @@ PrefabInstance:
       propertyPath: targetAgent
       value: 
       objectReference: {fileID: 310993545}
+    - target: {fileID: 166681435001524847, guid: f10dd452d3cc4274d8faf9b771f8d0c5,
+        type: 3}
+      propertyPath: actionDistans
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1371326716633612739, guid: f10dd452d3cc4274d8faf9b771f8d0c5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.81
+      value: 7.05
       objectReference: {fileID: 0}
     - target: {fileID: 1371326716633612739, guid: f10dd452d3cc4274d8faf9b771f8d0c5,
         type: 3}
@@ -1272,6 +1277,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 2130251644577089098, guid: f10dd452d3cc4274d8faf9b771f8d0c5,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 3.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2597,7 +2607,7 @@ PrefabInstance:
     - target: {fileID: 4585082766717424164, guid: 96dabeae1b54ae541bdc8fe03c3349ed,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -9.58
       objectReference: {fileID: 0}
     - target: {fileID: 4585082766717424164, guid: 96dabeae1b54ae541bdc8fe03c3349ed,
         type: 3}
