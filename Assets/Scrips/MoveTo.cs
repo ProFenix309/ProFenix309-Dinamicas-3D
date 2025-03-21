@@ -17,11 +17,20 @@ public class MoveTo : MonoBehaviour
     [SerializeField] float actionDistans;
     [SerializeField] float distanciaActual;
 
+    [SerializeField] bool onAwake;
 
-    void Start()
+    void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
         tiempoInicio = Time.time;
+    }
+
+    private void Start()
+    {
+        if (onAwake)
+        {
+            agent.SetDestination(targetAgent.position);
+        }
     }
 
     void Update()
@@ -41,12 +50,16 @@ public class MoveTo : MonoBehaviour
     //Mover al personaje de el metodo NavMeshAgent
     void MoverNPC()
     {
-        float _distanciaActual = Vector3.Distance(transform.position, targetAgent.position);
-        distanciaActual = _distanciaActual;
-
-        if (_distanciaActual <= actionDistans)
+        if (!onAwake)
         {
-            agent.SetDestination(targetAgent.position);
+            //.Distance es para dar el objetiva el NPC 
+            float _distanciaActual = Vector3.Distance(transform.position, targetAgent.position);
+            distanciaActual = _distanciaActual;
+
+            if (_distanciaActual <= actionDistans)
+            {
+                agent.SetDestination(targetAgent.position);
+            }
         }
     }
 
