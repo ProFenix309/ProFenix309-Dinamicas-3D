@@ -38,11 +38,15 @@ public class GameManager_UI : MonoBehaviour
     }
     public void Message()
     {
-        mainManuPanel.SetActive(false);
-        resgisterPanel.SetActive(false);
-        messagePanel.SetActive(true);
+        if (NameUser != "" || PassUser != "" || EmailUser != "")
+        {
+            mainManuPanel.SetActive(false);
+            resgisterPanel.SetActive(false);
+            messagePanel.SetActive(true);
 
-        messagetext.text = "Hola " + NameUser + " Te has resgistrado con el correo " + EmailUser;
+            messagetext.text = "Hola " + NameUser + " Te has resgistrado con el correo " + EmailUser;
+        }
+
 
     }
 
