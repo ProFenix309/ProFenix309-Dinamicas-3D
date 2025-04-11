@@ -38,7 +38,7 @@ public class GameManager_UI : MonoBehaviour
     }
     public void Message()
     {
-        if (NameUser != "" || PassUser != "" || EmailUser != "")
+        if (NameUser != "" && PassUser != "" && EmailUser != "")
         {
             mainManuPanel.SetActive(false);
             resgisterPanel.SetActive(false);

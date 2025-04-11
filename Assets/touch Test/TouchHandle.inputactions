@@ -1,0 +1,54 @@
+{
+    "name": "TouchHandle",
+    "maps": [
+        {
+            "name": "Tactil ",
+            "id": "b1293157-0ff2-472a-9526-049be85a8e79",
+            "actions": [
+                {
+                    "name": "Toque",
+                    "type": "Button",
+                    "id": "9fe3a24a-9d00-42b9-a923-4ccc7bce6ed2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TapPosition",
+                    "type": "PassThrough",
+                    "id": "af1e9b98-19d5-4001-adbd-e5866f89d381",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b012967c-12bd-4899-abf4-05a1c6194114",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toque",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e9e5be5b-1a15-4cec-bc18-329b8084cad3",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TapPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
